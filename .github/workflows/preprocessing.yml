@@ -54,7 +54,7 @@ jobs:
       - name: Commit preprocessed data
         run: |
 
-          git add preprocessing/student_habits_preprocessing.csv
+          git add preprocessing/student_depression_preprocessing.csv
           git commit -m "Add preprocessed dataset via GitHub Actions" || echo "No changes to commit"
           git push https://x:${{ secrets.GH_TOKEN }}@github.com/liqolina/Eksperimen_SML_LutfiAundrieHermawan.git
           
