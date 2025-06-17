@@ -43,7 +43,7 @@ jobs:
       - name: Debug_contents
         run: |
           echo "Contents of preprocessing folder:"
-          ls -R preprocessing/student_depression_preprocessing.csv/
+          ls -R preprocessing/student_depression_preprocessing.csv
 
       # 6) 
       - name: Configure Git user
