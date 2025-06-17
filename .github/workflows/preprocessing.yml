@@ -59,7 +59,7 @@ jobs:
           git push https://x:${{ secrets.GH_TOKEN }}@github.com/liqolina/Eksperimen_SML_LutfiAundrieHermawan.git
           
       - name: Push changes
-        run: git push origin master
+        run: git push origin main
 
       # 7)
       - name: Upload preprocessed dataset artifact
