@@ -35,8 +35,8 @@ jobs:
       # 4) 
       - name: Run_preprocessing
         run: |
-          python preprocessing/automate_LutfiAundrieHermawan.py 
-            --input student_depression_dataset_raw.csv
+          python preprocessing/automate_LutfiAundrieHermawan.py \
+            --input student_depression_dataset_raw.csv \
             --output preprocessing/student_depression_preprocessing
 
       # 5) 
