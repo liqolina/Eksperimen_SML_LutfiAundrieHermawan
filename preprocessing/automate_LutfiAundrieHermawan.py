@@ -155,6 +155,6 @@ def preprocess_data(input_path, output_path):
 # -------------------------------
 
 if __name__ == "__main__":
-    input_path = "../student_depression_dataset_raw.csv"
-    output_path = "../preprocessing/student_depression_preprocessing.csv"
+    input_path = "student_depression_dataset_raw.csv"
+    output_path = "preprocessing/student_depression_preprocessing.csv"
     preprocess_data(input_path, output_path)
